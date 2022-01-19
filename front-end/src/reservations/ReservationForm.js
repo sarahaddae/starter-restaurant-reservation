@@ -116,7 +116,7 @@ const partyChangeHandler = (event) => setParty(event.target.value);
             type="text"
             onChange={dateChangeHandler}
             required={true}
-            placeholder='DDMMYYYY'
+            placeholder='MMDDYYYY'
             value={date}
           />
           <small className="form-text text-muted"> Enter Reservation Date (ex: DDMMYYYY) </small>
