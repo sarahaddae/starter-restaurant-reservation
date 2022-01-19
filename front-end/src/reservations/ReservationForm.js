@@ -119,8 +119,8 @@ const partyChangeHandler = (event) => setParty(event.target.value);
             placeholder='MMDDYYYY'
             value={date}
           />
-          <small className="form-text text-muted"> Enter Reservation Date (ex: DDMMYYYY) </small>
-          <small className="form-text text-muted">(Closed on Tuesdays) </small>
+          <small className="form-text text-muted"> Enter Reservation Date (ex: MMDDYYYY) </small>
+          <small className="form-text text-muted">(Closed on Mondays) </small>
 
           </div>
           <div className="col-4 form-group"> 
